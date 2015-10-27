@@ -10,12 +10,19 @@ $(document).ready(function(){
 			content: "<div class='no_login_show'><h1>亲！您还没登录一起惠哦！</h1><a href='login.html'>马上登录</a><a href='register.html'>免费注册</a><a href='javascript:void(0)'>先购物，再返利</a><a href='javascript:layer.closeAll();'>取消</a></div>"
 		});
 	});
-	$(".jg").each(function(){
-		$(this).on('click',function(){
-			layer.tips('请耐心等待一下，我们正在拼命开发中···','.jg');
+	$(".jgone").on('click',function(){
+		layer.tips('请耐心等待一下，我们正在拼命开发中···','.jgone');
 			});
-		});
-	
+	$(".jgtwo").on('click',function(){
+		layer.tips('请耐心等待一下，我们正在拼命开发中···','.jgtwo');
+			});
+	$(".jgthree").on('click',function(){
+		layer.tips('请耐心等待一下，我们正在拼命开发中···','.jgthree');
+			});
+	$(".jgfour").on('click',function(){
+		layer.tips('请耐心等待一下，我们正在拼命开发中···','.jgfour');
+			});
+
 	$("form").submit(function(e){
 	  	var username = $.trim($("#username").val());
 		var password = $.trim($("#password").val());
