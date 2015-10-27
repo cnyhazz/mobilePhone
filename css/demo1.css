@@ -1,0 +1,269 @@
+﻿@charset "utf-8";
+body,div,ul,li,div,h1,h2,h3,h4,h5,span,p,label,nav,head,img{
+margin:0;
+padding:0;
+}
+body{
+background-color: #f5f5f5;
+}
+/*图片轮播*/
+.mobile{
+min-width:320px;
+}
+.header{
+height:50px;
+background:orange;
+}
+.header .m_logo {
+float: left;
+margin-left: 10px;
+}
+.header .m_logo a {
+height: 45px;
+float: left;
+}
+.header .m_logo img {
+height: 35px;
+margin-top: 5px;
+}
+
+.header .m_search {
+float: right;
+height: 25px;
+width: 25px;
+margin-top: 10px;
+margin-right: 15px;
+background:orange;
+}
+
+#owl{
+width:98.6%;
+max-width:640px;
+max-height:310px;
+padding:5px;
+margin:0 auto;
+overflow:hidden;
+}
+#owl .item{display:block;}
+#owl img{
+display:block;
+width:98.6%;
+max-width:640px;
+max-height:310px;
+}
+.m_mobile{
+margin-top:10px;
+float:left;
+width:100%;
+}
+.m_mobile img{
+/*按比例缩小*/
+height:44px;
+}
+.m_mobile a{
+width:24%;
+height:100px;
+text-decoration:none;
+text-align:center;
+float:left;
+margin-top:10px;
+}
+.m_mobile a span{
+width:100%;
+display:block;
+line-height:40px;
+font-size:14px;
+color:#666666;
+font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+.m_mai .m_mai_title{
+line-height:40px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#f9f9f9;
+width:100%;
+height:40px;
+}
+.m_mai .m_mai_title span{
+float:left;
+margin-left:10px;
+color:#00bb9c;
+font-size:16px;
+}
+.m_mai .m_mai_title em{
+float:right;
+margin-right:10px;
+font-size:12px;
+font-style:normal;
+color:#666666;
+}
+.m_mai .m_mai_title a{
+color:#666666;
+text-decoration:none;
+}
+.m_mai .m_mai_list{
+float:left;
+width:100%;
+padding-top:25px;
+}
+.m_mai .m_mai_list .mall{
+float:left;
+width:25%;
+text-align:center;
+text-decoration:none;
+margin-bottom:25px;
+display:inline-block;
+}
+.m_mai .m_mai_list .mall .mall_logo{
+height:50px;
+overflow:hidden;
+}
+.m_mai .m_mai_list .mall .mall_logo img{
+width:80px;
+}
+.m_mai .m_mai_list .mall span{
+text-decoration:none;
+color:#666666;
+font-size:12px;
+line-height:30px;
+}
+.m_mai .m_mai_list .mall span i{
+color:#ff3300;
+font-size:13px;
+font-style:normal;
+}
+
+.m_baoliao .baoliao_title{
+line-height: 40px;
+border-bottom:1px solid #f9f9f9;
+width: 100%;
+height: 40px;
+}
+.m_baoliao .baoliao_title span {
+float: left;
+margin-left: 10px;
+color: #00bb9c;
+font-size: 16px;
+}
+.m_baoliao .baoliao_title em {
+float: right;
+margin-right: 10px;
+font-size: 12px;
+font-style: normal;
+color: #666666;
+}
+.m_baoliao .baoliao_title a {
+color: #666666;
+text-decoration: none;
+}
+.m_baoliao .baoliao_title img {
+width: 20px;
+margin-top: 10px;
+}
+
+.m_baoliao .baoliao_list {
+float:left;
+}
+.baoliao_content{
+float:left;
+width:100%;
+border-bottom:1px solid #f2f2f2;
+margin-top:15px;
+}
+.baoliao_content .bl_img {
+float: left;
+margin: 5px;
+width: 15%;
+}
+.baoliao_content .bl_img img {
+width: 90px;
+}
+.baoliao_content .bl_right {
+float: left;
+margin-left: 10px;
+width: 78%;
+}
+.baoliao_content .bl_title {
+float: left;
+font-size: 12px;
+color: #666666;
+line-height: normal;
+width: 100%;
+}
+.baoliao_content .bl_note{
+float:left;
+font-size:12px;
+line-height:normal;
+color:#ff3300;
+margin-top:5px;
+width:100%;
+}
+.baoliao_content .bl_tag{
+float:left;
+font-size:12px;
+width:100%;
+line-height:30px;
+margin-top:10px;
+}
+.baoliao_content .bl_right .bl_tag .bl_price{
+float:left;
+font-size:12px;
+color:#ff3300;
+}
+.baoliao_content .bl_right .bl_tag .bl_oprice{
+font-size:12px;
+text-decoration:line-through;
+float:left;
+margin-left:10px;
+color:#999999;
+}
+.baoliao_content .bl_right .bl_tag .bl_mall{
+float:right;
+font-size:12px;
+color:#666666;
+}
+.baoliao_content .bl_right .bl_tag .bl_time{
+float:right;
+font-size:12px;
+color:#666666;
+margin-left:10px;
+}
+
+.m_baoliao .bl_more{
+line-height:40px;
+text-align:center;
+border-bottom:1px solid #eeeeee;
+float:left;
+width:100%;
+}
+.m_baoliao .bl_more a{
+line-height:40px;
+height:40px;
+width:100%;
+color:#666666;
+text-decoration:none;
+float:left;
+font-size:12px;
+}
+
+
+
+/*弹出层*/
+
+.no_login_show h1{
+	height:50px;
+	line-height:50px;
+	font-size:20px;
+	color:gray;
+	text-align:center;
+	border-bottom:1px dotted #e7e7e7;
+	}
+.no_login_show a{
+	display:block;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	text-align:center;
+	color:red;
+	border-bottom:1px dotted #e7e7e7;
+	}
